@@ -1,5 +1,5 @@
 ---
-title: "Hello there! 👋"
+title: "Articles"
 description: "Parscode is a site for learning and sharing knowledge"
 cover: "img/JParsons.jpg"
 cascade:
@@ -8,7 +8,7 @@ cascade:
 ---
 
 {{< lead >}}
-Learn the ways of the Data Analyst.
+Learn the ways of a Data Analyst, with a side of programming.
 {{< /lead >}}
 
 This is where the fun begins! 
