@@ -6,10 +6,10 @@
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
 colorScheme = "styles"
-defaultAppearance = "light" # valid options: light or dark
-autoSwitchAppearance = true
+defaultAppearance = "dark" # valid options: light or dark
+autoSwitchAppearance = false
 
-enableSearch = false
+enableSearch = true
 enableCodeCopy = false
 enableImageLazyLoading = true
 enableImageWebp = true
@@ -19,15 +19,15 @@ fingerprintAlgorithm = "sha256"
 
 [header]
   layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
-  # logo = "img/logo.svg"
-  # logoDark = "img/dark-logo.jpg"
+  logo = "img/logo-light.svg"
+  logoDark = "img/logo-dark.svg"
   showTitle = true
 
 [footer]
   showCopyright = true
-  showThemeAttribution = true
-  showAppearanceSwitcher = false
+  showThemeAttribution = false
   showScrollToTop = true
+  showAppearanceSwitcher = true
 
 [homepage]
   layout = "page" # valid options: page, profile, custom
@@ -48,15 +48,15 @@ fingerprintAlgorithm = "sha256"
   invertPagination = false
   showReadingTime = true
   showTableOfContents = false
-  showTaxonomies = false
+  showTaxonomies = true
   showWordCount = false
   showComments = false
   # sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "telegram", "line", "weibo"]
 
 [list]
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showSummary = false
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = false
   groupByYear = true
   paginationWidth = 1
