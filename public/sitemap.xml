@@ -4,14 +4,14 @@
   
     
       <url>
-            <loc>//localhost:1313/about/</loc>
+            <loc>//localhost:61877/about/</loc>
             <lastmod>2024-05-10T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>//localhost:1313/articles/</loc>
+            <loc>//localhost:61877/articles/</loc>
             <lastmod>2024-05-10T00:00:00+00:00</lastmod>
           </url>
     
@@ -20,29 +20,28 @@
   
     
       <url>
-            <loc>//localhost:1313/</loc>
+            <loc>//localhost:61877/</loc>
             <lastmod>2024-05-10T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>//localhost:1313/articles/first-post/</loc>
+            <loc>//localhost:61877/articles/first-post/</loc>
             <lastmod>2024-05-10T00:00:00+00:00</lastmod>
           </url>
+    
+  
+    
+  
+    
+  
     
   
     
       <url>
-            <loc>//localhost:1313/articles/first/</loc>
-            <lastmod>2024-05-10T00:00:00+00:00</lastmod>
+            <loc>//localhost:61877/articles/first/</loc>
           </url>
-    
-  
-    
-  
-    
-  
     
   
 </urlset>

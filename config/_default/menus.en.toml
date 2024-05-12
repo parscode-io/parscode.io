@@ -25,15 +25,6 @@
   pageRef = "tags"
   weight = 30
 
-[[main]]
-  name = "GitHub"
-  url = "https://github.com/parscode-io"
-  weight = 40
-  [main.params]
-    icon = "github"
-    showName = false
-    target = "_blank"
-
 
 [[main]]
   identifier = "appearance"
@@ -62,3 +53,21 @@
    name = "About"
    pageRef = "about"
    weight = 10
+
+  [[footer]]
+    name = "GitHub"
+    url = "https://github.com/parscode-io"
+    weight = 40
+    [footer.params]
+      icon = "github"
+      showName = false
+      target = "_blank"
+
+  [[footer]]
+    name = "YouTube"
+    url = "https://youtube.com/@parscodeYT"
+    weight = 40
+    [footer.params]
+      icon = "youtube"
+      showName = false
+      target = "_blank"
