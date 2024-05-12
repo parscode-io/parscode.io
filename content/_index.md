@@ -1,5 +1,5 @@
 ---
-title: "Hello there! 👋"
+title: "Welcome to Parscode!"
 description: "Parscode is a site for learning and sharing knowledge"
 cascade:
   showEdit: false

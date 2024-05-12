@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hello there! 👋 on Parscode</title>
+    <title>Welcome to Parscode! on Parscode</title>
     <link>//localhost:1313/</link>
-    <description>Recent content in Hello there! 👋 on Parscode</description>
+    <description>Recent content in Welcome to Parscode! on Parscode</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Parscode</copyright>
@@ -14,21 +14,7 @@
       <link>//localhost:1313/about/</link>
       <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/about/</guid>
-      <description>This is about the author</description>
-    </item>
-    <item>
-      <title>My landing page</title>
-      <link>//localhost:1313/articles/first-post/</link>
-      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/articles/first-post/</guid>
-      <description>This page content is now full-width.</description>
-    </item>
-    <item>
-      <title>My landing page 2</title>
-      <link>//localhost:1313/articles/first/</link>
-      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/articles/first/</guid>
-      <description>This is my first page</description>
+      <description>Hello there 👋 #</description>
     </item>
   </channel>
 </rss>
