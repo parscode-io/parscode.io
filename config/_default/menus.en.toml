@@ -26,16 +26,33 @@
   weight = 30
 
 [[main]]
+  name = "GitHub"
+  url = "https://github.com/parscode-io"
+  weight = 40
+  [main.params]
+    icon = "github"
+    showName = false
+    target = "_blank"
+
+
+[[main]]
+  identifier = "appearance"
+  weight = 90
+  [main.params]
+    action = "appearance"
+
+
+[[main]]
   identifier = "search"
   weight = 99
   [main.params]
     action = "search"
 
-[[main]]
-  identifier = "locale"
-  weight = 100
-  [main.params]
-    action = "locale"
+#[[main]]
+ # identifier = "locale"
+  #weight = 100
+  #[main.params]
+    #action = "locale"
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

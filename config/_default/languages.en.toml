@@ -3,20 +3,20 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-# title = "Parscode"
-# copyright = "Copy, _right?_ :thinking_face:"
+title = "Parscode"
+copyright = "© 2024 Parscode"
 
 [params]
   dateFormat = "2 January 2006"
 
    mainSections = ["articles", "categories"]
-  # description = "My awesome website"
+   description = "Learn the ways of a Data Analyst"
 
 [params.author]
-  name = "J Parsons"
+  name = "James Parsons"
  image = "img/JParsons.jpg"
-  # headline = "I'm only human"
-  # bio = "A little bit about you"
+   # headline = "I'm only human"
+   bio = "Founder of Parscode"
    links = [
      { email = "mailto:hello.parscode@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },

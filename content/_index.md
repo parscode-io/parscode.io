@@ -1,7 +1,6 @@
 ---
 title: "Hello there! 👋"
 description: "Parscode is a site for learning and sharing knowledge"
-cover: "img/JParsons.jpg"
 cascade:
   showEdit: false
   showSummary: true
