@@ -8,7 +8,7 @@ cascade:
 ---
 
 {{< lead >}}
-Learn the ways of the Data Analyst.
+Learn the ways of a Data Analyst.
 {{< /lead >}}
 
 This is where the fun begins! 
