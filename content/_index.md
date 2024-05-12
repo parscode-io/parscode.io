@@ -10,6 +10,10 @@ cascade:
 Learn the ways of the Data Analyst.
 {{< /lead >}}
 
-If you would like to become an author [send us an email](mailto:hello.parscode@gmail.com)
+{{< button href="mailto:hello.parscode@gmail.com" target="_self" >}}
+Sign up to newsletter!
+{{< /button >}}
+
+[Sign up to newsletter!](mailto:hello.parscode@gmail.com)
 
 ---
