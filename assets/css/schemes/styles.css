@@ -38,4 +38,9 @@
     --color-secondary-900: 84, 171, 176;
     --color-secondary-950: 84, 171, 176;
   }
-  
+
+/* Disable the hover over on GIPHY embeds */
+.giphy {
+  pointer-events: none;
+  ;
+}

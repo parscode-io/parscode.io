@@ -27,7 +27,7 @@ fingerprintAlgorithm = "sha256"
   showCopyright = true
   showThemeAttribution = false
   showScrollToTop = true
-  showAppearanceSwitcher = true
+  showAppearanceSwitcher = false
 
 [homepage]
   layout = "page" # valid options: page, profile, custom
