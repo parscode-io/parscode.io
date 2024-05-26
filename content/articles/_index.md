@@ -12,6 +12,4 @@ Learn the ways of a Data Analyst, with a side of programming.
 
 This is where the fun begins! 
 
-_**Sidenote:** This page is just a standard Congo article listing and Hugo has been configured to generate a `samples` content type and display article summaries._
-
 ---

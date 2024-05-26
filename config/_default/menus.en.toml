@@ -50,8 +50,8 @@
 # the copyright notice. Configure as per the main menu above.
 
  [[footer]]
-   name = "About"
-   pageRef = "about"
+   name = "Contributors"
+   pageRef = "contributors"
    weight = 10
 
   [[footer]]

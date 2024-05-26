@@ -2,6 +2,9 @@
   {{/* Footer menu */}}
   {{ if .Site.Menus.footer }}
     <nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <p>
+        Find an issue with this page? <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/parscode-io" target=”_blank”>Fix it on GitHub!</a>
+      </p>
       <ul class="flex list-none flex-row">
         {{ range .Site.Menus.footer }}
           {{ if and (eq .Params.action "locale") (or (not page.IsTranslated) (not site.IsMultiLingual)) }}
