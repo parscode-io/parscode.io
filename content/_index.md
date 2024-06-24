@@ -9,7 +9,7 @@ cascade:
     <div class="grid max-w-screen-xl  py-8 mx-auto lg:gap-8 xl:gap-8 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Your Career as a Data Analyst Starts Here</h1>
-            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Fast, free and written by a guy who's been there and done it</p>
+            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Fast, free and written by a guy who's been there and done it 👨‍💻</p>
             {{< button href="articles/1-hello-world/index.html" target="_self">}}
             Start here
             {{< /button >}}

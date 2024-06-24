@@ -6,7 +6,7 @@ date: 2024-05-12
 
 Welcome to the first Parscode article! The intention for this site 
 is to create a short (but complete) path to becoming a data analyst.
-So le's get straight into it.
+So let's get straight into it.
 
 ![alt text](LOTR.jpg "So it Begins...")
 
