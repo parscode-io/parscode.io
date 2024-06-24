@@ -11,5 +11,11 @@ enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
 
+[markup.tableOfContents]
+    endLevel = 6
+    startLevel = 2
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+
