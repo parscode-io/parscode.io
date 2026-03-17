@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://parscode.io/sitemap.xml
