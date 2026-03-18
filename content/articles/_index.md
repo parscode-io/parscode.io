@@ -6,9 +6,7 @@ cascade:
   showSummary: true
 ---
 
-{{< lead >}}
 Learn the ways of a Data Analyst, with a side of programming.
-{{< /lead >}}
 
 This is where the fun begins! 
 

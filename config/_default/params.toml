@@ -1,82 +1,41 @@
-# -- Theme Options --
-# These options control how the theme functions and allow you to
-# customise the display of your website.
-#
-# Refer to the theme docs for more details about each of these parameters.
-# https://jpanther.github.io/congo/docs/configuration/#theme-parameters
+# Hextra Theme Parameters
+# Refer to https://imfing.github.io/hextra/docs/ for documentation
 
-colorScheme = "styles"
-defaultAppearance = "dark" # valid options: light or dark
-autoSwitchAppearance = false
+title = "Parscode"
+description = "Learn data analysis and programming"
 
-enableSearch = true
-enableCodeCopy = false
-enableImageLazyLoading = true
-enableImageWebp = true
+[logo]
+  url = "img/logo-light.svg"
+  dark = "img/logo-dark.svg"
 
-# robots = ""
-fingerprintAlgorithm = "sha256"
+[theme]
+  default = "dark"
 
-[header]
-  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
-  logo = "img/logo-light.svg"
-  logoDark = "img/logo-dark.svg"
-  showTitle = true
+[search]
+  enable = true
+
+[navbar]
+  [[navbar.nav]]
+    title = "Articles"
+    url = "/articles/"
+  [[navbar.nav]]
+    title = "Contributors"
+    url = "/contributors/"
 
 [footer]
-  showCopyright = true
-  showThemeAttribution = false
-  showScrollToTop = true
-  showAppearanceSwitcher = false
-
-[homepage]
-  layout = "page" # valid options: page, profile, custom
-  showRecent = true
-  recentLimit = 5
+  enable = true
 
 [article]
   showDate = false
   showDateUpdated = false
-  showAuthor = false
-  showBreadcrumbs = false
-  showDraftLabel = true
-  showEdit = false
-  # editURL = "https://github.com/username/repo/"
-  editAppendPath = true
-  showHeadingAnchors = true
-  showPagination = true
-  invertPagination = false
   showReadingTime = false
-  showTableOfContents = true
+  showTOC = true
   showTaxonomies = true
-  showWordCount = false
-  showComments = false
- # sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "telegram", "line", "weibo"]
 
 [list]
-  showBreadcrumbs = true
   showSummary = false
-  showTableOfContents = true
-  showTaxonomies = false
+  showBreadcrumbs = true
   groupByYear = true
-  paginationWidth = 1
 
-[sitemap]
-  excludedKinds = ["taxonomy", "term"]
-
-[taxonomy]
-  showTermCount = true
-
-[fathomAnalytics]
-  # site = "ABC12345"
-
-[plausibleAnalytics]
-  # domain = "blog.yoursite.com"
-  # event = ""
-  # script = ""
-
-[verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
+[social]
+  # Add social media links here if needed
