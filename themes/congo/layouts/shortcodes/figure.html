@@ -1,5 +1,8 @@
 {{ if .Get "default" }}
-  {{ template "_internal/shortcodes/figure.html" . }}
+  <figure>
+    <img src="{{ .Get "src" }}" {{ with .Get "alt" }}alt="{{ . }}"{{ end }} />
+    {{ with .Get "caption" }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+  </figure>
 {{ else }}
   {{ $url := urls.Parse (.Get "src") }}
   {{ $altText := .Get "alt" }}

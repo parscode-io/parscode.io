@@ -7,3 +7,7 @@ draft: false
 ---
 
 Hello and welcome!
+
+<img src="JParsons.jpg" alt="James Parsons" style="max-width: 200px; border-radius: 8px;" />
+
+![James Parsons](JParsons.jpg)
