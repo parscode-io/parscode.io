@@ -1,8 +1,9 @@
 /* Custom font overrides */
 
-/* Headings - Newsreader serif */
+/* Headings - Newsreader serif with semi-bold weight */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Newsreader', Georgia, serif;
+  font-weight: 600;
 }
 
 /* Body text - Space Grotesk sans-serif */
