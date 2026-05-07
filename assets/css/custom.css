@@ -94,3 +94,14 @@ section.py-16 .grid-cols-1 {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* Hero text column - add padding for spacing from video */
+section.py-16 .grid > div:first-child {
+  padding-right: 2rem;
+}
+
+@media (min-width: 768px) {
+  section.py-16 .grid > div:first-child {
+    padding-right: 3rem;
+  }
+}
