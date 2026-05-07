@@ -1,22 +1,69 @@
-/* Custom font overrides */
+/* Custom font overrides and typography refinements */
 
-/* Headings - Newsreader serif with semi-bold weight */
+/* Base headings - Newsreader serif */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Newsreader', Georgia, serif !important;
+  letter-spacing: 0.02em;
+}
+
+/* H1 - elegant primary heading */
+h1 {
   font-weight: 400 !important;
 }
 
-/* Body text - Space Grotesk sans-serif */
-body {
-  font-family: 'Space Grotesk', system-ui, sans-serif;
+/* H2-H3 - medium weight for subheading hierarchy */
+h2, h3 {
+  font-weight: 500 !important;
 }
 
-/* Code - Fira Code monospace */
-code, pre, kbd, samp {
+/* H4-H6 - slightly heavier for smaller headings */
+h4, h5, h6 {
+  font-weight: 600 !important;
+}
+
+/* Body text - Space Grotesk sans-serif with improved readability */
+body {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+/* Paragraphs - enhanced line-height for readability */
+p {
+  line-height: 1.7;
+}
+
+/* Code - Fira Code monospace with styling */
+code, kbd, samp {
   font-family: 'Fira Code', Menlo, monospace;
+  letter-spacing: 0.01em;
+}
+
+/* Code blocks with subtle styling */
+pre {
+  font-family: 'Fira Code', Menlo, monospace;
+  letter-spacing: 0.01em;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-left: 3px solid var(--color-primary-500, #54abf0);
+  padding-left: 1rem;
+}
+
+/* Dark mode code blocks */
+:root.dark pre {
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 /* Logo wordmark - Newsreader serif */
 a[rel="me"] {
   font-family: 'Newsreader', Georgia, serif;
+}
+
+/* Link styling refinement */
+a {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.25em;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
 }
