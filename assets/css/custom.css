@@ -1,0 +1,16 @@
+/* Custom font overrides */
+
+/* Headings - Newsreader serif */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+/* Body text - Space Grotesk sans-serif */
+body {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+}
+
+/* Code - Fira Code monospace */
+code, pre, kbd, samp {
+  font-family: 'Fira Code', Menlo, monospace;
+}

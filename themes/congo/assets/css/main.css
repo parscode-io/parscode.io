@@ -1,7 +1,5 @@
 /*! Congo v2.8.2 | MIT License | https://github.com/jpanther/congo */
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fira+Code:wght@400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 
