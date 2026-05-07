@@ -48,6 +48,11 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Space Grotesk', 'system-ui', 'sans-serif'],
+        serif: ['Newsreader', 'Georgia', 'serif'],
+        mono: ['Fira Code', 'Menlo', 'monospace'],
+      },
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {
@@ -97,6 +102,24 @@ module.exports = {
             "a code": {
               color: "var(--tw-prose-code)",
             },
+            h1: {
+              fontFamily: theme("fontFamily.serif").join(", "),
+            },
+            h2: {
+              fontFamily: theme("fontFamily.serif").join(", "),
+            },
+            h3: {
+              fontFamily: theme("fontFamily.serif").join(", "),
+            },
+            h4: {
+              fontFamily: theme("fontFamily.serif").join(", "),
+            },
+            h5: {
+              fontFamily: theme("fontFamily.serif").join(", "),
+            },
+            h6: {
+              fontFamily: theme("fontFamily.serif").join(", "),
+            },
             kbd: {
               backgroundColor: theme("colors.neutral.200 / 1"),
               padding: "0.1rem 0.4rem",
@@ -116,6 +139,24 @@ module.exports = {
           css: {
             a: {
               textDecorationColor: theme("colors.neutral.600 / 1"),
+            },
+            h1: {
+              fontFamily: theme("fontFamily.serif").join(", "),
+            },
+            h2: {
+              fontFamily: theme("fontFamily.serif").join(", "),
+            },
+            h3: {
+              fontFamily: theme("fontFamily.serif").join(", "),
+            },
+            h4: {
+              fontFamily: theme("fontFamily.serif").join(", "),
+            },
+            h5: {
+              fontFamily: theme("fontFamily.serif").join(", "),
+            },
+            h6: {
+              fontFamily: theme("fontFamily.serif").join(", "),
             },
             kbd: {
               color: theme("colors.neutral.200 / 1"),
