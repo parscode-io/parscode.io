@@ -83,6 +83,7 @@ section.py-16 {
 
 section.py-16 .grid {
   display: grid;
+  gap: 3rem;
 }
 
 section.py-16 .grid-cols-1 {
@@ -104,4 +105,9 @@ section.py-16 .grid > div:first-child {
   section.py-16 .grid > div:first-child {
     padding-right: 3rem;
   }
+}
+
+/* Button wrapper - add bottom margin for mobile spacing */
+div.w-fit {
+  margin-bottom: 2rem;
 }

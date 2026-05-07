@@ -12,7 +12,7 @@ cascade:
 <div class="pr-8 md:pr-12">
 <h1 class="mb-6 text-4xl font-extrabold tracking-tight leading-tight md:text-5xl xl:text-6xl dark:text-white">Master Data Analysis. Build Your Career.</h1>
 <p class="mb-8 text-lg text-gray-600 dark:text-gray-300 max-w-xl">Practical, no-fluff lessons from someone who's done it. Free, clear, and designed to get you results.</p>
-<div class="w-fit">
+<div class="w-fit mb-8">
 {{< button href="articles/1-hello-world/index.html" target="_self">}}
 Start Learning
 {{< /button >}}
