@@ -6,7 +6,7 @@ cascade:
 ---
 
 <section class="py-16 md:py-24">
-<div class="mx-auto px-4 sm:px-6 lg:px-8">
+<div class="mx-auto sm:px-6 lg:px-8">
 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 <!-- Left: Text and Button -->
 <div class="pr-8 md:pr-12">
