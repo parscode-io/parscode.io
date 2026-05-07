@@ -2,6 +2,8 @@
 title: "This is Where the Fun Begins"
 description: "Becoming a data analyst"
 date: 2024-05-12
+summary: "Welcome to the first Parscode article!"
+showSummary: true
 ---
 
 Welcome to the first Parscode article! The intention for this site 
