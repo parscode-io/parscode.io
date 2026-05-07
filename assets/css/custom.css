@@ -109,5 +109,16 @@ section.py-16 .grid > div:first-child {
 
 /* Button wrapper - add bottom margin for mobile spacing */
 div.w-fit {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Table of Contents - add top margin on mobile for spacing from h1 */
+.toc {
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .toc {
+    margin-top: 0;
+  }
 }
